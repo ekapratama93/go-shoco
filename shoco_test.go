@@ -68,6 +68,7 @@ var testCases = []struct {
 	{"μδ", "00ce00bc00ce00b4", false},
 	{"\U0001f601", "00f0009f00980081", false},
 	{"test\x00test", "c8990000c899", false},
+	{"https://github.com/Ed-von-Schleck/shoco/blob/master/models/text_en.h", "68747470733a2f2f67c486622eac6d2f45642d768d2d53aea4636b2fa26fac2fbd6f622fda51802fb6b86c732f9278745f812e68", false},
 
 	// See https://github.com/Ed-von-Schleck/shoco/issues/11
 	{"μ", "01cebc", true},
