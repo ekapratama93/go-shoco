@@ -15,7 +15,7 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/ekapratama93/go-shoco"
+	shoco "github.com/ekapratama93/go-shoco"
 	"github.com/ekapratama93/go-shoco/models"
 )
 
