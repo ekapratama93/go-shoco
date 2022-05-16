@@ -15,8 +15,8 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/tmthrgd/shoco"
-	"github.com/tmthrgd/shoco/models"
+	"github.com/ekapratama93/go-shoco"
+	"github.com/ekapratama93/go-shoco/models"
 )
 
 func testCompress(in string, proposed bool) string {
@@ -107,6 +107,7 @@ var testModels = []struct {
 	{"TextEn", models.TextEn()},
 	{"FilePath", models.FilePath()},
 	{"Emails", models.Emails()},
+	{"Urls", models.Urls()},
 }
 
 func TestRoundTrip(t *testing.T) {
